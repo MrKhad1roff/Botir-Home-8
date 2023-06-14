@@ -76,6 +76,11 @@ ul{
     border-radius: 40px;
     text-align: center;
 }
+.wrapper__button-1:hover{
+    border: 5px solid #7C501B;
+    background: white;
+    color: #7C501B;
+}
 .wrapper__button-2{
     position:absolute;
     font-family: "Khula";
@@ -92,6 +97,11 @@ ul{
     text-transform: uppercase;
     border-radius: 40px;
     text-align: center;
+}
+.wrapper__button-2:hover{
+    border: 5px solid #7C501B;
+    background: white;
+    color: #7C501B;
 }
 .wrapper__item1{
     display: flex;
