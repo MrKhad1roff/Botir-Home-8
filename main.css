@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+   list-style: none; 
+}
+
+.wrapper{
+    width: 1307px;
+    height: 802px;
+    background: #EFA45F;
+    margin: auto;
+    position: relative;
+}
+.wrapper__basicwindow{
+    position: absolute;
+    width: 1021px;
+    height: 675px;
+    background: white;
+    top: 82px;
+    left: 105px;
+   
+}
+.wrapper__image{
+    border-radius:50%;
+    width: 311px;
+    height: 305px;
+    position: absolute;
+    margin:44px 599px 320px 111px;
+
+    background:url(./img/ulq6.jpg);
+    background-repeat: no-repeat;
+}
+.wrapper__text{
+    position: absolute;
+    top: 367px;
+    left: 190px;
+    color: #7C501B;
+    font-family: "Inter";
+    font-weight: 700;
+    size: 30.63px;
+    line-height: 37.063px;    
+    line-height: 100%;
+}
+.wrapper__text-2{
+    position: absolute;
+    top: 406px;
+    left: 200px;
+    color: #7C501B;
+    font-family: "Khula";
+    font-weight: 300;
+    line-height: 100%;
+}
+.wrapper__button-1{
+    position:absolute;
+    font-family: "Khula";
+    font-weight: 700;
+    font-size: 34px;
+    width: 300px;
+    height: 62px;
+    top: 450px;
+    left: 120px;
+    border: 10px solid #7C501B;
+    background:#7C501B ;
+    color: white;
+    border: 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    text-align: center;
+}
+.wrapper__button-2{
+    position:absolute;
+    font-family: "Khula";
+    font-weight: 700;
+    font-size: 34px;
+    width: 300px;
+    height: 62px;
+    top: 550px;
+    left: 120px;
+    border: 10px solid #7C501B;
+    background:#7C501B ;
+    color: white;
+    border: 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    text-align: center;
+}
+.wrapper__item1{
+    display: flex;
+    position: absolute;
+    width: 281px;
+    height: 193px;
+    top: 24px;
+    left: 725px;
+    border:1px solid#FCEAD0;
+    background:#FCEAD0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper__item2{
+    display: flex;
+    position: absolute;
+    width: 281px;
+    height: 193px;
+    top: 242px;
+    left: 725px;
+    border:1px solid#FCEAD0;
+    background:#FCEAD0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper__item3{
+    display: flex;
+    position: absolute;
+    width: 281px;
+    height: 193px;
+    top: 466px;
+    left: 725px;
+    border:1px solid#FCEAD0;
+    background:#FCEAD0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper__num{
+    font-family: "Khula";
+    font-weight: 300;
+    font-size: 52px;
+}
+.wrapper__text-3{
+    position: absolute;
+    font-family: "Khula";
+    font-weight: 300;
+    font-size: 32px;
+    color: black;
+    top: 120px;
+}
+
